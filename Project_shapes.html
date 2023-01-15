@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Shapes</title>
+        <link rel="stylesheet" href="C:\Users\vitab\Desktop\Development projects\My projects\Shapes project\styles.css">
+    </head>
+    <body>
+        <h1>Shapes</h1>
+        <p>Flower in disguise...</p>
+
+        <svg width="200" hight="200"> 
+            <circle cx="100" cy="100" r="47" stroke="green" stroke-width="5" fill="red"></circle>
+        </svg>
+
+        <style>
+            div{
+                width: 100px;
+                height: 100px;
+                background: black;
+                position: relative;
+                animation: myanimation 5s infinite;
+            }
+            @keyframes myanimation {
+                0% {top: 0px; background: red; width: 100px; margin-left: 10px;}
+                50% {top: 50px; background: green; width: 100px; margin-left: 10px;}
+                100% {top: 100px; background: yellow; width: 200px; margin-left: 30px;}
+                
+            }
+        </style>
+        <div></div>
+    </body>
+</html>
